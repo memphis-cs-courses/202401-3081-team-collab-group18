@@ -8,5 +8,9 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # root "posts#index"
   root 'pages#index'
+ samirrr-r-feature
   get 'samirrr', to: 'pages#samirrr', as: 'samirrr'
+
+  get 'prestongrant', to: 'pages#prestongrant', as: 'prestongrant'
+ main
 end
