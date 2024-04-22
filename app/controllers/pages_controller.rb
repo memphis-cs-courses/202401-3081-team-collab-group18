@@ -1,12 +1,11 @@
 class PagesController < ApplicationController
   def index
   end
- samirrr-r-feature
-  def samirrr
 
+  def samirrr
+  end
 
   def prestongrant
     render :prestongrant
- main
   end
 end
